@@ -1,0 +1,19 @@
+# Python code to find the count of words
+# in a CamelCase sequence
+
+# Function to find the count of words
+# in a CamelCase sequence
+def countWords(s):
+	count = 1
+	for i in range(1, len(s) - 1):
+		if (s[i].isupper()):
+			count += 1
+
+	return count
+
+# Driver code
+s =str(input())
+print(countWords(s))
+
+# This code is contributed
+# by sahishelangia
