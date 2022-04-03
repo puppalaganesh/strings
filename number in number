@@ -1,0 +1,8 @@
+def s(sr):
+    sum=0
+    for c in sr:
+        if c.isdigit()==True:
+            sum+=int(c)
+    return sum
+sr=input()
+print(s(sr))
